@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.StepDefinitions.RunCukeTest" time="77.446" tests="3" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.cucumber.StepDefinitions.RunCukeTest" time="107.431" tests="3" errors="2" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/baskaran/myfirstgitproject/robot/cucumberselenium/target/test-classes:/home/baskaran/myfirstgitproject/robot/cucumberselenium/target/classes:/home/baskaran/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/baskaran/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/baskaran/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-java/2.3.0/cucumber-java-2.3.0.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar:/home/baskaran/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/home/baskaran/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/home/baskaran/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-junit/2.3.0/cucumber-junit-2.3.0.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/baskaran/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/baskaran/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/baskaran/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/baskaran/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/baskaran/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/baskaran/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/baskaran/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/baskaran/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/baskaran/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/baskaran/.m2/repository/io/github/bonigarcia/webdrivermanager/2.0.1/webdrivermanager-2.0.1.jar:/home/baskaran/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/baskaran/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/baskaran/.m2/repository/org/rauschig/jarchivelib/0.7.1/jarchivelib-0.7.1.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/baskaran/.m2/repository/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar:/home/baskaran/myfirstgitproject/robot/cucumberselenium/lib/totallylazy-1.20.jar:/home/baskaran/.m2/repository/net/masterthought/cucumber-reporting/0.0.20/cucumber-reporting-0.0.20.jar:/home/baskaran/.m2/repository/maven/velocity/1.5-20060721.044818/velocity-1.5-20060721.044818.jar:/home/baskaran/.m2/repository/ant/ant/1.6.2/ant-1.6.2.jar:/home/baskaran/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/home/baskaran/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/home/baskaran/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/home/baskaran/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:/home/baskaran/.m2/repository/avalon-logkit/avalon-logkit/2.1/avalon-logkit-2.1.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-javamail/1.3.1-rc3/geronimo-spec-javamail-1.3.1-rc3.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-jms/1.1-rc4/geronimo-spec-jms-1.1-rc4.jar:/home/baskaran/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/baskaran/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/baskaran/.m2/repository/werken-xpath/werken-xpath/0.9.4/werken-xpath-0.9.4.jar:/home/baskaran/.m2/repository/antlr/antlr/2.7.5/antlr-2.7.5.jar:/home/baskaran/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1.jar:/home/baskaran/.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar:/home/baskaran/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/home/baskaran/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/baskaran/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/home/baskaran/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/home/baskaran/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/baskaran/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/home/baskaran/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/baskaran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/home/baskaran/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="java.class.path" value="/home/baskaran/cucumberselenium/CucumberSelenium/target/test-classes:/home/baskaran/cucumberselenium/CucumberSelenium/target/classes:/home/baskaran/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/baskaran/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/baskaran/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-java/2.3.0/cucumber-java-2.3.0.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar:/home/baskaran/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/home/baskaran/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/home/baskaran/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-junit/2.3.0/cucumber-junit-2.3.0.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/baskaran/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/baskaran/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/baskaran/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/baskaran/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/baskaran/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/baskaran/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/baskaran/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/baskaran/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/baskaran/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/baskaran/.m2/repository/io/github/bonigarcia/webdrivermanager/2.0.1/webdrivermanager-2.0.1.jar:/home/baskaran/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/baskaran/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/baskaran/.m2/repository/org/rauschig/jarchivelib/0.7.1/jarchivelib-0.7.1.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/baskaran/.m2/repository/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar:/home/baskaran/cucumberselenium/CucumberSelenium/lib/totallylazy-1.20.jar:/home/baskaran/.m2/repository/net/masterthought/cucumber-reporting/0.0.20/cucumber-reporting-0.0.20.jar:/home/baskaran/.m2/repository/maven/velocity/1.5-20060721.044818/velocity-1.5-20060721.044818.jar:/home/baskaran/.m2/repository/ant/ant/1.6.2/ant-1.6.2.jar:/home/baskaran/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/home/baskaran/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/home/baskaran/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/home/baskaran/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:/home/baskaran/.m2/repository/avalon-logkit/avalon-logkit/2.1/avalon-logkit-2.1.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-javamail/1.3.1-rc3/geronimo-spec-javamail-1.3.1-rc3.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-jms/1.1-rc4/geronimo-spec-jms-1.1-rc4.jar:/home/baskaran/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/baskaran/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/baskaran/.m2/repository/werken-xpath/werken-xpath/0.9.4/werken-xpath-0.9.4.jar:/home/baskaran/.m2/repository/antlr/antlr/2.7.5/antlr-2.7.5.jar:/home/baskaran/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1.jar:/home/baskaran/.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar:/home/baskaran/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/home/baskaran/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/baskaran/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/home/baskaran/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/home/baskaran/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/baskaran/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/home/baskaran/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/baskaran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/home/baskaran/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="32"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
@@ -17,20 +17,20 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/i386"/>
-    <property name="sun.java.command" value="/home/baskaran/myfirstgitproject/robot/cucumberselenium/target/surefire/surefirebooter6708882584563267974.jar /home/baskaran/myfirstgitproject/robot/cucumberselenium/target/surefire 2017-12-15T16-29-45_650-jvmRun1 surefire4701807137033778685tmp surefire_03723594712225667079tmp"/>
-    <property name="surefire.test.class.path" value="/home/baskaran/myfirstgitproject/robot/cucumberselenium/target/test-classes:/home/baskaran/myfirstgitproject/robot/cucumberselenium/target/classes:/home/baskaran/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/baskaran/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/baskaran/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-java/2.3.0/cucumber-java-2.3.0.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar:/home/baskaran/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/home/baskaran/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/home/baskaran/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-junit/2.3.0/cucumber-junit-2.3.0.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/baskaran/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/baskaran/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/baskaran/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/baskaran/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/baskaran/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/baskaran/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/baskaran/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/baskaran/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/baskaran/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/baskaran/.m2/repository/io/github/bonigarcia/webdrivermanager/2.0.1/webdrivermanager-2.0.1.jar:/home/baskaran/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/baskaran/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/baskaran/.m2/repository/org/rauschig/jarchivelib/0.7.1/jarchivelib-0.7.1.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/baskaran/.m2/repository/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar:/home/baskaran/myfirstgitproject/robot/cucumberselenium/lib/totallylazy-1.20.jar:/home/baskaran/.m2/repository/net/masterthought/cucumber-reporting/0.0.20/cucumber-reporting-0.0.20.jar:/home/baskaran/.m2/repository/maven/velocity/1.5-20060721.044818/velocity-1.5-20060721.044818.jar:/home/baskaran/.m2/repository/ant/ant/1.6.2/ant-1.6.2.jar:/home/baskaran/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/home/baskaran/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/home/baskaran/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/home/baskaran/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:/home/baskaran/.m2/repository/avalon-logkit/avalon-logkit/2.1/avalon-logkit-2.1.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-javamail/1.3.1-rc3/geronimo-spec-javamail-1.3.1-rc3.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-jms/1.1-rc4/geronimo-spec-jms-1.1-rc4.jar:/home/baskaran/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/baskaran/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/baskaran/.m2/repository/werken-xpath/werken-xpath/0.9.4/werken-xpath-0.9.4.jar:/home/baskaran/.m2/repository/antlr/antlr/2.7.5/antlr-2.7.5.jar:/home/baskaran/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1.jar:/home/baskaran/.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar:/home/baskaran/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/home/baskaran/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/baskaran/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/home/baskaran/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/home/baskaran/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/baskaran/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/home/baskaran/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/baskaran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/home/baskaran/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
+    <property name="sun.java.command" value="/home/baskaran/cucumberselenium/CucumberSelenium/target/surefire/surefirebooter7232463704931338603.jar /home/baskaran/cucumberselenium/CucumberSelenium/target/surefire 2017-12-18T13-43-41_967-jvmRun1 surefire689972989689349469tmp surefire_02528064588509998642tmp"/>
+    <property name="surefire.test.class.path" value="/home/baskaran/cucumberselenium/CucumberSelenium/target/test-classes:/home/baskaran/cucumberselenium/CucumberSelenium/target/classes:/home/baskaran/.m2/repository/org/apache/logging/log4j/log4j-api/2.10.0/log4j-api-2.10.0.jar:/home/baskaran/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/baskaran/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-java/2.3.0/cucumber-java-2.3.0.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar:/home/baskaran/.m2/repository/info/cukes/cucumber-html/0.2.6/cucumber-html-0.2.6.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-jvm-deps/1.0.6/cucumber-jvm-deps-1.0.6.jar:/home/baskaran/.m2/repository/io/cucumber/gherkin/5.0.0/gherkin-5.0.0.jar:/home/baskaran/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/home/baskaran/.m2/repository/io/cucumber/cucumber-junit/2.3.0/cucumber-junit-2.3.0.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-java/3.8.1/selenium-java-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-api/3.8.1/selenium-api-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.8.1/selenium-chrome-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.8.1/selenium-edge-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.8.1/selenium-firefox-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.8.1/selenium-ie-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.8.1/selenium-opera-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.8.1/selenium-remote-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.8.1/selenium-safari-driver-3.8.1.jar:/home/baskaran/.m2/repository/org/seleniumhq/selenium/selenium-support/3.8.1/selenium-support-3.8.1.jar:/home/baskaran/.m2/repository/net/bytebuddy/byte-buddy/1.7.5/byte-buddy-1.7.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/baskaran/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/home/baskaran/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/home/baskaran/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/baskaran/.m2/repository/com/google/guava/guava/23.0/guava-23.0.jar:/home/baskaran/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/home/baskaran/.m2/repository/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar:/home/baskaran/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/home/baskaran/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/baskaran/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/home/baskaran/.m2/repository/io/github/bonigarcia/webdrivermanager/2.0.1/webdrivermanager-2.0.1.jar:/home/baskaran/.m2/repository/org/slf4j/slf4j-api/1.7.24/slf4j-api-1.7.24.jar:/home/baskaran/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/baskaran/.m2/repository/org/rauschig/jarchivelib/0.7.1/jarchivelib-0.7.1.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar:/home/baskaran/.m2/repository/org/jsoup/jsoup/1.10.2/jsoup-1.10.2.jar:/home/baskaran/cucumberselenium/CucumberSelenium/lib/totallylazy-1.20.jar:/home/baskaran/.m2/repository/net/masterthought/cucumber-reporting/0.0.20/cucumber-reporting-0.0.20.jar:/home/baskaran/.m2/repository/maven/velocity/1.5-20060721.044818/velocity-1.5-20060721.044818.jar:/home/baskaran/.m2/repository/ant/ant/1.6.2/ant-1.6.2.jar:/home/baskaran/.m2/repository/commons-collections/commons-collections/3.1/commons-collections-3.1.jar:/home/baskaran/.m2/repository/commons-lang/commons-lang/2.1/commons-lang-2.1.jar:/home/baskaran/.m2/repository/jdom/jdom/1.0/jdom-1.0.jar:/home/baskaran/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar:/home/baskaran/.m2/repository/avalon-logkit/avalon-logkit/2.1/avalon-logkit-2.1.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-javamail/1.3.1-rc3/geronimo-spec-javamail-1.3.1-rc3.jar:/home/baskaran/.m2/repository/geronimo-spec/geronimo-spec-jms/1.1-rc4/geronimo-spec-jms-1.1-rc4.jar:/home/baskaran/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/home/baskaran/.m2/repository/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar:/home/baskaran/.m2/repository/werken-xpath/werken-xpath/0.9.4/werken-xpath-0.9.4.jar:/home/baskaran/.m2/repository/antlr/antlr/2.7.5/antlr-2.7.5.jar:/home/baskaran/.m2/repository/joda-time/joda-time/2.1/joda-time-2.1.jar:/home/baskaran/.m2/repository/org/mockito/mockito-all/1.9.0/mockito-all-1.9.0.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-api/3.5.2/maven-plugin-api-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-model/3.5.2/maven-model-3.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact/3.5.2/maven-artifact-3.5.2.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.plexus/0.3.3/org.eclipse.sisu.plexus-0.3.3.jar:/home/baskaran/.m2/repository/javax/enterprise/cdi-api/1.0/cdi-api-1.0.jar:/home/baskaran/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/home/baskaran/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/baskaran/.m2/repository/org/eclipse/sisu/org.eclipse.sisu.inject/0.3.3/org.eclipse.sisu.inject-0.3.3.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-utils/3.1.0/plexus-utils-3.1.0.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.jar:/home/baskaran/.m2/repository/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar:/home/baskaran/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar:/home/baskaran/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar:/home/baskaran/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar:/home/baskaran/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar:/home/baskaran/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.4/plexus-sec-dispatcher-1.4.jar:/home/baskaran/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar:/home/baskaran/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar:/home/baskaran/.m2/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml-schemas/3.17/poi-ooxml-schemas-3.17.jar:/home/baskaran/.m2/repository/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar:/home/baskaran/.m2/repository/stax/stax-api/1.0.1/stax-api-1.0.1.jar:/home/baskaran/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar:/home/baskaran/.m2/repository/com/github/virtuald/curvesapi/1.04/curvesapi-1.04.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/baskaran"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="/usr/lib/jvm/java-8-oracle/jre"/>
-    <property name="basedir" value="/home/baskaran/myfirstgitproject/robot/cucumberselenium"/>
+    <property name="basedir" value="/home/baskaran/cucumberselenium/CucumberSelenium"/>
     <property name="file.separator" value="/"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/baskaran/myfirstgitproject/robot/cucumberselenium/target/surefire/surefirebooter6708882584563267974.jar"/>
+    <property name="surefire.real.class.path" value="/home/baskaran/cucumberselenium/CucumberSelenium/target/surefire/surefirebooter7232463704931338603.jar"/>
     <property name="sun.boot.class.path" value="/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="1.8.0_151"/>
-    <property name="user.dir" value="/home/baskaran/myfirstgitproject/robot/cucumberselenium"/>
+    <property name="user.dir" value="/home/baskaran/cucumberselenium/CucumberSelenium"/>
     <property name="os.arch" value="i386"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
@@ -58,7 +58,292 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="login without username and password" classname="github login" time="23.526"/>
-  <testcase name="login username and password data through selenium webdriver" classname="github login" time="27.025"/>
-  <testcase name="login username and password data through excel" classname="github login" time="25.787"/>
+  <testcase name="login without username and password" classname="github login" time="31.493"/>
+  <testcase name="login username and password data through selenium webdriver" classname="github login" time="36.29">
+    <error message="Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.linkText: Start a project
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'baskaran-Aspire-4736', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-37-generic', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+  Scenario: login username and password data through selenium webdriver &amp#27;[90m# src/test/java/com/cucumber/features/github_login.feature:8&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on github homepage&amp#27;[0m                                    &amp#27;[90m# GithubLoginSD.user_is_on_github_homepage()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on Sign in button&amp#27;[0m                                  &amp#27;[90m# GithubLoginSD.user_clicks_on_Sign_in_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is displayed login screen1&amp#27;[0m                                &amp#27;[90m# GithubLoginSD.user_is_displayed_login_screen1()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser entered logon credentials&amp#27;[0m                                 &amp#27;[90m# GithubLoginSD.user_entered_logon_credentials()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is displayed home screen&amp#27;[0m                                  &amp#27;[90m# GithubLoginSD.user_is_displayed_home_screen()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.cucumber.selenium.SeleniumFunctions.isloginsucess(SeleniumFunctions.java:90)
+	at com.cucumber.StepDefinitions.GithubLoginSD.user_is_displayed_home_screen(GithubLoginSD.java:51)
+	at ✽.user is displayed home screen(src/test/java/com/cucumber/features/github_login.feature:13)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Start a project
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'baskaran-Aspire-4736', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-37-generic', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.cucumber.selenium.SeleniumFunctions.isloginsucess(SeleniumFunctions.java:90)
+	at com.cucumber.StepDefinitions.GithubLoginSD.user_is_displayed_home_screen(GithubLoginSD.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1513604656696	geckodriver	INFO	geckodriver 0.19.1
+1513604656732	geckodriver	INFO	Listening on 127.0.0.1:12774
+1513604656892	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.obXAxVqj7fG1"
+1513604658280	Marionette	INFO	Enabled via --marionette
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6297): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6297): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6297): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6297): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6297): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6297): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1513604663274	Marionette	INFO	Listening on port 49445
+1513604663330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1513604663523	Marionette	DEBUG	Register listener.js for window 2147483649
+Dec 18, 2017 1:44:23 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1513604667138	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513604667925	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513604667926	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513604670451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://github.com/"
+1513604673507	Marionette	DEBUG	Received DOM event "pageshow" for "https://github.com/"
+1513604673750	Marionette	DEBUG	Received DOM event "beforeunload" for "https://github.com/"
+1513604673961	Marionette	DEBUG	Received DOM event "pagehide" for "https://github.com/"
+1513604673979	Marionette	DEBUG	Received DOM event "unload" for "https://github.com/"
+1513604674596	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://github.com/login"
+1513604675068	Marionette	DEBUG	Received DOM event "pageshow" for "https://github.com/login"
+1513604675493	Marionette	DEBUG	Received DOM event "beforeunload" for "https://github.com/login"
+1513604676860	Marionette	DEBUG	Received DOM event "pagehide" for "https://github.com/login"
+1513604676862	Marionette	DEBUG	Received DOM event "unload" for "https://github.com/login"
+1513604677338	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://github.com/"
+1513604677872	Marionette	DEBUG	Received DOM event "pageshow" for "https://github.com/"
+]]></system-err>
+  </testcase>
+  <testcase name="login username and password data through excel" classname="github login" time="38.8">
+    <error message="Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.linkText: Start a project
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'baskaran-Aspire-4736', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-37-generic', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+  Scenario: login username and password data through excel &amp#27;[90m# src/test/java/com/cucumber/features/github_login.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser is on github homepage&amp#27;[0m                       &amp#27;[90m# GithubLoginSD.user_is_on_github_homepage()&amp#27;[0m
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser clicks on Sign in button&amp#27;[0m                     &amp#27;[90m# GithubLoginSD.user_clicks_on_Sign_in_button()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser is displayed login screen1&amp#27;[0m                   &amp#27;[90m# GithubLoginSD.user_is_displayed_login_screen1()&amp#27;[0m
+baskaran7709@hotmail.com|||pavani@123!$%|||
+baskaran7709@hotmail.com,pavani@123!$%
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser entered logon credentials using excel&amp#27;[0m        &amp#27;[90m# GithubLoginSD.user_entered_logon_credentials_using_excel()&amp#27;[0m
+    &amp#27;[31mThen &amp#27;[0m&amp#27;[31muser is displayed home screen&amp#27;[0m                     &amp#27;[90m# GithubLoginSD.user_is_displayed_home_screen()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:82)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at com.cucumber.selenium.SeleniumFunctions.isloginsucess(SeleniumFunctions.java:90)
+	at com.cucumber.StepDefinitions.GithubLoginSD.user_is_displayed_home_screen(GithubLoginSD.java:51)
+	at ✽.user is displayed home screen(src/test/java/com/cucumber/features/github_login.feature:20)
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.linkText: Start a project
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'baskaran-Aspire-4736', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-37-generic', java.version: '1.8.0_151'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:882)
+	at java.util.Optional.orElseThrow(Optional.java:290)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:881)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at com.cucumber.selenium.SeleniumFunctions.isloginsucess(SeleniumFunctions.java:90)
+	at com.cucumber.StepDefinitions.GithubLoginSD.user_is_displayed_home_screen(GithubLoginSD.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:369)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:275)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:239)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:160)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:373)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:334)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:407)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[1513604693011	geckodriver	INFO	geckodriver 0.19.1
+1513604693024	geckodriver	INFO	Listening on 127.0.0.1:27450
+1513604693202	mozrunner::runner	INFO	Running command: "/usr/lib/firefox/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.7k98gDi0Dkjg"
+1513604694657	Marionette	INFO	Enabled via --marionette
+
+(firefox:6427): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6427): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6427): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6427): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6427): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6427): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6483): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6483): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6483): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6483): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6483): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/firefox:6483): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1513604700284	Marionette	INFO	Listening on port 34794
+1513604700371	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:6245): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+1513604700588	Marionette	DEBUG	Register listener.js for window 2147483649
+Dec 18, 2017 1:45:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1513604704249	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1513604704917	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1513604704918	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1513604706887	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://github.com/"
+1513604711089	Marionette	DEBUG	Received DOM event "pageshow" for "https://github.com/"
+1513604711280	Marionette	DEBUG	Received DOM event "beforeunload" for "https://github.com/"
+1513604711571	Marionette	DEBUG	Received DOM event "pagehide" for "https://github.com/"
+1513604711572	Marionette	DEBUG	Received DOM event "unload" for "https://github.com/"
+1513604712112	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://github.com/login"
+1513604712587	Marionette	DEBUG	Received DOM event "pageshow" for "https://github.com/login"
+1513604714271	Marionette	DEBUG	Received DOM event "beforeunload" for "https://github.com/login"
+1513604715690	Marionette	DEBUG	Received DOM event "pagehide" for "https://github.com/login"
+1513604715691	Marionette	DEBUG	Received DOM event "unload" for "https://github.com/login"
+1513604716184	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://github.com/"
+1513604716697	Marionette	DEBUG	Received DOM event "pageshow" for "https://github.com/"
+]]></system-err>
+  </testcase>
 </testsuite>

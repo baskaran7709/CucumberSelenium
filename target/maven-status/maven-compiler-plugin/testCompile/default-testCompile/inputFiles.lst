@@ -1,4 +1,4 @@
-/home/baskaran/myfirstgitproject/robot/cucumberselenium/src/test/java/com/cucumber/StepDefinitions/RunCukeTest.java
-/home/baskaran/myfirstgitproject/robot/cucumberselenium/src/test/java/com/cucumber/selenium/DataFromExcel.java
-/home/baskaran/myfirstgitproject/robot/cucumberselenium/src/test/java/com/cucumber/StepDefinitions/GithubLoginSD.java
-/home/baskaran/myfirstgitproject/robot/cucumberselenium/src/test/java/com/cucumber/selenium/SeleniumFunctions.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/selenium/DataFromExcel.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/selenium/SeleniumFunctions.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/RunCukeTest.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/GithubLoginSD.java
