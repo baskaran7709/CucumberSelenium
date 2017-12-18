@@ -49,6 +49,7 @@ public class GithubLoginSD {
 	@Then("^user is displayed home screen$")
 	public void user_is_displayed_home_screen() {
 		sf.isloginsucess();
+		sf.logout();
 		sf.teardown();
 
 	}

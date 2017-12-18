@@ -1,22 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.cucumber.StepDefinitions.RunCukeTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 107.431 s <<< FAILURE! - in com.cucumber.StepDefinitions.RunCukeTest
-login username and password data through selenium webdriver(github login)  Time elapsed: 36.29 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.linkText: Start a project
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'baskaran-Aspire-4736', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-37-generic', java.version: '1.8.0_151'
-Driver info: driver.version: unknown
-
-login username and password data through excel(github login)  Time elapsed: 38.8 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.linkText: Start a project (tried for 15 second(s) with 500 MILLISECONDS interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.linkText: Start a project
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'baskaran-Aspire-4736', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-37-generic', java.version: '1.8.0_151'
-Driver info: driver.version: unknown
-
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 88.919 s - in com.cucumber.StepDefinitions.RunCukeTest

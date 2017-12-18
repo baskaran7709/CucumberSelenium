@@ -16,7 +16,7 @@ public class DataFromExcel {
 	public static String read_data() throws Exception {
 		try {
 			FileInputStream file = new FileInputStream(
-					new File("/home/baskaran/myfirstgitproject/robot/cucumberselenium/test_data/test.xlsx"));
+					new File("/home/baskaran/cucumberselenium/CucumberSelenium/test_data/test.xlsx"));
 			// Create Workbook instance holding reference to .xlsx file
 			XSSFWorkbook workbook = new XSSFWorkbook(file);
 			// Get first/desired sheet from the workbook

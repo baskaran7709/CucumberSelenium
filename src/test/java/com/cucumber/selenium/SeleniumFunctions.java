@@ -5,7 +5,9 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -87,7 +89,25 @@ public class SeleniumFunctions {
 	}
 
 	public void isloginsucess() {
-		waitVar.until(ExpectedConditions.presenceOfElementLocated(By.linkText("Start a project")));
+		waitVar.until(ExpectedConditions.presenceOfElementLocated(By.linkText("CucumberSelenium")));
 	}
-
+	
+	public void logout() {
+		waitVar.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//img[contains(@alt,'baskaran7709')]")));
+		WebElement ImageFile = driver.findElement(By.xpath("//img[contains(@alt,'baskaran7709')]"));
+		Boolean ImagePresent = (Boolean) ((JavascriptExecutor)driver).executeScript("return arguments[0].complete && typeof arguments[0].naturalWidth != \"undefined\" && arguments[0].naturalWidth > 0", ImageFile);
+        if (!ImagePresent)
+        {
+             System.out.println("Image not displayed.");
+        }
+        else
+        {
+            System.out.println("Image displayed.");
+        }
+        
+        ImageFile.click();
+		waitVar.until(ExpectedConditions.presenceOfElementLocated(By.xpath(".//button[contains(text(),'Sign out')]")));
+		driver.findElement(By.xpath(".//button[contains(text(),'Sign out')]")).click();
+		driver.findElement(By.linkText("Sign in")).isDisplayed();
+	}
 }
