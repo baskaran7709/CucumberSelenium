@@ -2,6 +2,8 @@ package com.cucumber.StepDefinitions;
 
 import java.net.MalformedURLException;
 
+import org.openqa.selenium.WebDriver;
+
 import com.cucumber.selenium.SeleniumFunctions;
 
 import cucumber.api.java.en.Given;
@@ -10,6 +12,13 @@ import cucumber.api.java.en.When;
 
 public class GithubLoginSD {
 
+	public WebDriver driver;
+    
+    public GithubLoginSD()
+    {
+    	driver = Hooks.driver;
+    }
+	
 	SeleniumFunctions sf = new SeleniumFunctions();
 
 	@Given("^user is on github homepage$")
@@ -20,6 +29,7 @@ public class GithubLoginSD {
 
 	@When("^user clicks on Sign in button$")
 	public void user_clicks_on_Sign_in_button() {
+		//SeleniumFunctions.sign_in.isDisplayed();
 		sf.clickSigninLink();
 	}
 
@@ -44,6 +54,7 @@ public class GithubLoginSD {
 	public void user_entered_logon_credentials_using_excel() {
 		sf.isloginsectionDisplayed();
 		sf.enterlogindetailsusingexcel();
+//		SeleniumFunctions.cucumber_selenium.isDisplayed();
 	}
 
 	@Then("^user is displayed home screen$")

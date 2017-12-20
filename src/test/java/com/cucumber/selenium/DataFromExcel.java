@@ -61,9 +61,9 @@ public class DataFromExcel {
 
 	}
 
-	public static void main(String[] args) throws Throwable {
-
-		read_data();
-	}
+//	public static void main(String[] args) throws Throwable {
+//
+//		read_data();
+//	}
 
 }

@@ -7,7 +7,8 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/java/com/cucumber/features", glue = "com.cucumber.StepDefinitions", plugin = {
-		"pretty", "html:target/cucumber", "json:target/cucumber/cucumber.json", }
+		"pretty", "html:target/cucumber", "json:target/cucumber/cucumber.json"}, 
+		tags = {}
 
 )
 public class RunCukeTest {

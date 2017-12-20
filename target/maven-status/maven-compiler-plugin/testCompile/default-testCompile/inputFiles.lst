@@ -1,4 +1,15 @@
-/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/selenium/DataFromExcel.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/modules/SignoutAction.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/pageobjects/AutomationHomePage.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/pageobjects/BaseClass.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/Hooks.java
 /home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/selenium/SeleniumFunctions.java
 /home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/RunCukeTest.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/modules/SignInAction.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/BlankStepDefs.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/selenium/DataFromExcel.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/pageobjects/ContactusPage.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/pageobjects/LoginPage.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/helpers/Log.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/ShoppingCart.java
 /home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/StepDefinitions/GithubLoginSD.java
+/home/baskaran/cucumberselenium/CucumberSelenium/src/test/java/com/cucumber/helpers/DataHelper.java

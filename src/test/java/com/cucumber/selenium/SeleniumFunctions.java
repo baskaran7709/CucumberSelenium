@@ -9,15 +9,28 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.cucumber.StepDefinitions.Hooks;
+
 public class SeleniumFunctions {
 
-	public static WebDriver driver = null;
-	public static WebDriverWait waitVar = null;
+public WebDriver driver;
+public WebDriverWait waitVar;
+    
+    public SeleniumFunctions()
+    {
+    	driver = Hooks.driver;
+    	waitVar = Hooks.waitVar;
+    	
+    }
+//	public static WebDriver driver = null;
+//  public static WebDriverWait waitVar = null;    
 
-	public static String baseURL = "https://github.com/";
+    public static String baseURL = "https://github.com/";
 
 	/*
 	 * System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
@@ -30,17 +43,17 @@ public class SeleniumFunctions {
 
 	public void createDriver() throws MalformedURLException, InterruptedException {
 
-		System.setProperty("webdriver.gecko.driver", "/home/baskaran/drivers/geckodriver");
-		driver = new FirefoxDriver();
-
-		driver.manage().window().maximize();
+//		System.setProperty("webdriver.gecko.driver", "/home/baskaran/drivers/geckodriver");
+//		driver = new FirefoxDriver();
+//
+//		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 		driver.get(baseURL);
 
 		waitVar = new WebDriverWait(driver, 15);
 	}
-
+	
 	public void teardown() {
 		driver.quit();
 	}
